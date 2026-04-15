@@ -1,50 +1,59 @@
-🐍💧🔫 Snake Water Gun Game
-4
-📌 Project Overview
+# 🐍💧🔫 Snake Water Gun Game
 
-The Snake Water Gun Game is a fun Python-based mini project inspired by Rock-Paper-Scissors.
-This project includes:
+## 📌 Project Overview
+The **Snake Water Gun Game** is a fun Python-based mini project inspired by **Rock-Paper-Scissors**.
 
-🖥️ Command Line Version
-🎮 GUI Version (Tkinter)
-🌐 Web Version (HTML, CSS, JS)
-🔊 Sound Effects (Pygame)
-💾 Score Saving System
-🎮 Game Rules
-Choice	Beats
-🐍 Snake	💧 Water
-💧 Water	🔫 Gun
-🔫 Gun	🐍 Snake
-📁 Project Structure
+### 🚀 This project includes:
+- 🖥️ Command Line Version  
+- 🎮 GUI Version (Tkinter)  
+- 🌐 Web Version (HTML, CSS, JS)  
+- 🔊 Sound Effects (Pygame)  
+- 💾 Score Saving System  
+
+---
+
+## 🎮 Game Rules
+
+| Choice | Beats |
+|--------|------|
+| 🐍 Snake | 💧 Water |
+| 💧 Water | 🔫 Gun |
+| 🔫 Gun | 🐍 Snake |
+
+---
+
+## 📁 Project Structure
 snake-water-gun/
 │
 ├── cli/
-│   └── main.py
+│ └── main.py
 │
 ├── gui/
-│   └── gui_game.py
+│ └── gui_game.py
 │
 ├── web/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
 │
 ├── assets/
-│   ├── victory.wav
-│   ├── defeat.wav
-│   ├── button_click.wav
-│   └── draw.wav
+│ ├── victory.wav
+│ ├── defeat.wav
+│ ├── button_click.wav
+│ └── draw.wav
 │
 ├── data/
-│   └── score.txt
+│ └── score.txt
 │
 └── README.md
-⚙️ Installation
-Clone the repository:
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/snake-water-gun.git
-Navigate to project:
+2️⃣ Navigate to the project
 cd snake-water-gun
-Install dependencies:
+3️⃣ Install dependencies
 pip install pygame
 ▶️ How to Run
 🖥️ CLI Version
@@ -53,12 +62,18 @@ python cli/main.py
 cd gui
 python gui_game.py
 🌐 Web Version
-Open web/index.html in your browser
+
+Open:
+
+web/index.html
+
+in your browser
+
 🕹️ How to Play
 Choose:
-Snake 🐍
-Water 💧
-Gun 🔫
+🐍 Snake
+💧 Water
+🔫 Gun
 Computer randomly selects a choice
 Result is displayed instantly
 Score updates automatically
@@ -74,7 +89,7 @@ Score updates automatically
 Scores are tracked during gameplay
 Saved in:
 data/score.txt
-Previous scores can be viewed from the file
+Previous scores can be viewed anytime
 💻 Example Output
 You: snake
 Computer: water
@@ -83,16 +98,16 @@ You Win 🎉
 Score → You: 1 | Computer: 0
 ✨ Features
 🎮 Interactive gameplay
-🖥️ Multiple versions (CLI, GUI, Web)
+🖥️ CLI + GUI + Web versions
 🔊 Sound integration
 💾 Persistent score storage
-🎯 Beginner-friendly code
+🎯 Beginner-friendly
 🚀 Future Improvements
 🏆 Leaderboard system
 🎨 Modern UI design
 🔁 Restart & round system
-🌍 Online multiplayer version
-📱 Mobile app version
+🌍 Online multiplayer
+📱 Mobile app
 🤝 Contributing
 
 Contributions are welcome!
@@ -109,3 +124,6 @@ Hemanth
 ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
+
+
+
